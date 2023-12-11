@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - 8999:80
+    deploy:
+      mode: replicated
+      replicas: 1
