@@ -1,0 +1,27 @@
+global:
+  portainerUrl: portainer:9443
+  insecureTls: true
+  admin:
+    enabled: true
+  license:
+    enabled: true
+  settings:
+    enabled: true
+    edge:
+      enabled: true
+      edgePortainerUrl: https://portainer:9443
+      edgeTunnelServerAddress: portainer:8000
+      asyncMode: true
+      enableEdgeComputeFeatures: true
+      edgeAgentCheckinInterval: 60
+      trustOnFirstConnect: true
+      commandInterval: 60
+      pingInterval: 60
+      snapshotInterval: 60
+environments:
+- name: local
+  environmentType: 1
+  url: unix:///var/run/docker.sock
+  tls: true
+  tlsSkipVerify: true
+  tlsSkipClientVerify: true
