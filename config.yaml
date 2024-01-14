@@ -18,6 +18,10 @@ global:
       commandInterval: 60
       pingInterval: 60
       snapshotInterval: 60
+  users:
+  - name: stevensbkang
+    password: Password12345
+    role: 1
 environments:
 - name: local
   environmentType: 1
