@@ -22,6 +22,9 @@ global:
   - name: stevensbkang
     password: Password12345
     role: 1
+  - name: bob
+    password: Password12345
+    role: 1
 environments:
 - name: local
   environmentType: 1
