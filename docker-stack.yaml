@@ -1,13 +1,7 @@
+version: "3.3"
 services:
   nginx:
     image: nginx:latest
-    ports:
-      - 9999:80
     deploy:
       mode: replicated
       replicas: 1
-    configs:
-      - config
-configs:
-  config:
-    file: ./config.yaml
