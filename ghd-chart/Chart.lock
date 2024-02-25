@@ -1,0 +1,6 @@
+dependencies:
+- name: ghd-chart-dependency
+  repository: file://../ghd-chart-dependency
+  version: 0.1.0
+digest: sha256:b29309f0a15e042d6e6a1c860f8792356d7125351e716684995c8b923fc07781
+generated: "2024-02-22T09:30:35.922275+13:00"
