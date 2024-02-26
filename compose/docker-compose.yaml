@@ -3,4 +3,4 @@ services:
   nginx:
     image: nginx:latest
     env_file:
-    - /host/test.env
+    - test.env
