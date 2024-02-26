@@ -3,4 +3,4 @@ services:
   nginx:
     image: nginx:latest
     env_file:
-    - test.env
+    - /var/edge/test.env
