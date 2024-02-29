@@ -3,6 +3,6 @@ services:
   nginx:
     image: nginx:latest
     volumes:
-      - /var/edge/env:/var/edge/env
+      - /var/edge:/var/edge
     environment:
       - nenv=development
