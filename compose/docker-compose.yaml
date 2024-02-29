@@ -6,3 +6,4 @@ services:
       - ./:/var/edge
     environment:
       - nenv=development
+      - nstack=1
