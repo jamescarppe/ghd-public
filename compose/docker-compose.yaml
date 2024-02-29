@@ -2,8 +2,5 @@ version: '3.8'
 services:
   nginx:
     image: nginx:latest
-    configs:
-      - n_config
-configs:
-  n_config:
-    file: /var/edge/env
+    volumes:
+      - /var/edge/env:/var/edge/env
