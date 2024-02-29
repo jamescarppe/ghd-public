@@ -6,4 +6,3 @@ services:
       - /var/edge/env:/var/edge/env
     environment:
       - nenv=development
-      - owner=sk
