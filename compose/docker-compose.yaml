@@ -2,8 +2,6 @@ version: '3.8'
 services:
   nginx:
     image: nginx:latest
-    volumes:
-      - ./:/var/edge
     env_file:
       - ./test.env
     environment:
