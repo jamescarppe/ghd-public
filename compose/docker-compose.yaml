@@ -8,11 +8,7 @@ services:
       - nenv=development
       - nstack=1
     configs:
-      - source: te-conf
-        target: /tmp
-        uid: '103'
-        gid: '103'
-        mode: 0440
+      - te-conf
 configs:
   te-conf:
     file: ./test.env
