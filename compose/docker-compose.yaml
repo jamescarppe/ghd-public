@@ -8,8 +8,8 @@ services:
       - nenv=development
       - nstack=1
     configs:
-      - source: te.conf
+      - source: te-conf
         target: /tmp
 configs:
-  te.conf:
+  te-conf:
     file: ./test.env
