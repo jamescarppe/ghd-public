@@ -7,3 +7,9 @@ services:
     environment:
       - nenv=development
       - nstack=1
+    configs:
+      - source: te.conf
+        target: /tmp
+configs:
+  te.conf:
+    file: ./test.env
