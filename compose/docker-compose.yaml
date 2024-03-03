@@ -2,6 +2,8 @@ version: '3.8'
 services:
   nginx:
     image: nginx:latest
+    volumes:
+      - ./:/var/edge
     environment:
       - nenv=development
       - nstack=1
