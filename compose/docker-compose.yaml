@@ -4,6 +4,8 @@ services:
     image: nginx:latest
     volumes:
       - ./:/var/edge
+    env_file:
+      - ./test.env
     environment:
       - nenv=development
       - nstack=1
