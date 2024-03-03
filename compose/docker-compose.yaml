@@ -10,6 +10,9 @@ services:
     configs:
       - source: te-conf
         target: /tmp
+        uid: '103'
+        gid: '103'
+        mode: 0440
 configs:
   te-conf:
     file: ./test.env
